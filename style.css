@@ -71,27 +71,27 @@ body {
 
   #mySidenav a {
     position: absolute;
-    right: -69px;
+    left: -70px;
     transition: 0.3s;
     padding: 5px;
     width: 95px;
     text-decoration: none;
     font-size: 20px;
     color: white;
-    border-radius: 10px 0 0 0;
+    border-radius: 0 0 5px 0;
     background-color: #3689e6;
   }
   
   #mySidenav a:hover {
-    right: 0;
+    left: 0;
   }
   
   #github {
-    top: 100px;
+    top: 540px;
   }
   
   #mail {
-    top: 140px;
+    top: 580px;
   }
 
    /* The side navigation menu */
