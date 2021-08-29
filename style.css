@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
-body {
+  * {
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  body {
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
     background-color: #fafafa;
@@ -39,33 +43,33 @@ body {
 
   .tab {
     overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    border: none;
+    background-color: #d4d4d4;
   }
 
   .tab button {
     background-color: inherit;
     float: left;
-    border: none;
+    border: 3px solid rgba(0, 0, 0, 0);
     outline: none;
     cursor: pointer;
-    padding: 5px 10px;
-    transition: 0.3s;
+    padding: 2px 5px;
+    transition: 0.1s;
     font-size: 12px;
   }
   
   .tab button:hover {
-    background-color: #ddd;
+    background-color: #abacae;
   }
   
   .tab button.active {
-    background-color: #ccc;
+    background-color: #fafafa;
+    border-top: 3px solid #3689e6;
   }
   
   .tabcontent {
     display: none;
     padding: 0px 12px;
-    border: 1px solid #ccc;
     border-top: none;
   }
 
@@ -102,7 +106,7 @@ body {
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #1a1a1a; /* Black*/
+  background-color: rgba(26, 26, 26, 0.9); /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
